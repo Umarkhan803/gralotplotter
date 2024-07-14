@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ChartComponent from "./ChartComponent";
 const HomePage = () => {
-  const [xData, setXData] = useState("");
+  const [xData, setXData] = useState(""); 
   const [yData, setYData] = useState("");
   const [data, setData] = useState(null);
   const handelPlot = () => {
